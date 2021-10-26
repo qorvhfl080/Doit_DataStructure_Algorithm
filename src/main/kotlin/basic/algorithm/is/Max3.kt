@@ -13,11 +13,16 @@ fun main() {
     print("c의 값: ")
     val c = sc.nextInt()
 
+    val max = max3(a, b, c)
+
+    println("최대값: $max")
+}
+
+fun max3(a: Int, b: Int, c: Int): Int {
     var max = a
     if (b > max)
         max = b
     if (c > max)
         max = c
-
-    println("최대값: $max")
+    return max
 }
