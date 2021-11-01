@@ -31,4 +31,5 @@ fun main() {
             4 -> println(s.toString())
         }
     }
+    sc.close()
 }
